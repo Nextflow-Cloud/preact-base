@@ -1,0 +1,26 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	font-family: 'Segoe UI Variable Display', 'Segoe UI', sans-serif;
+	font-weight: 400;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background-image: url("https://images.unsplash.com/photo-1620121684840-edffcfc4b878");
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: hidden;
+}
+
+#root {
+	height: 100%;
+	width: 100%;
+	padding: 1rem;
+	overflow-y: scroll;
+}
